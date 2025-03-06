@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+}
+
+h1 { 
+    font-size: 70px;
+    font-weight: 480;
+}
+
+.notification-text {
+    display: flex;
+    gap: 6px;
+}
+
+.banner-wrap {
+    background-image: url(./banner.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 52px;
+}
+
+.notification-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px 12px;
+    padding: 4px 14px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #ECD8AA;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100vw;
+    height: 52px;
+}
+
+.inline-text {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.right-menu {
+    width: 100px;
+    font-size: 40px;
+    margin-right: 38px;
+}
+
+.right-menu .material-icons {
+    font-size: 26px;
+}
+
+.material-icons-outlined {
+    font-size: 26px;
+}
+
+.bottom-bar {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px ;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    background-color: #F9F9F9;
+    width: 100vw;
+    height: 45px; 
+}
+
+#inventory-link {
+    justify-content: space-between;
+    background-color: black;
+    color: #e2e3e3;
+    width: auto;
+    height: auto;
+    margin: 14px;
+    margin-left: 20px;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 12px ;
+    font-weight: 400;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+}
+
+#leasing-link {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+hr {
+    width: 310px;
+    border: solid 0.2px;
+}
+
+#starting-range {
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 1px;
+}
+
+.logo {
+    color: white;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: auto;
+    margin-left: 40px;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 10px;
+}
+
+.nav-item {
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 18px;
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    background-color: #e8e8e8;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+button {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    width: 260px;
+    padding: 10px 10px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    height: 40px;
+}
+
+.action-area {
+    margin-top: 30px;
+}
+
+.steering-wheel-icon {
+    color: black;
+    width: 20px;
+}
+
+.btn-dark {
+    background-color: #3e6ae1;
+    color: white;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    height: 40px;
+}
